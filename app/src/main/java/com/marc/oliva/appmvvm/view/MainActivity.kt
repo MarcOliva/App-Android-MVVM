@@ -1,7 +1,8 @@
-package com.marc.oliva.appmvvm
+package com.marc.oliva.appmvvm.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.marc.oliva.appmvvm.R
 
 class MainActivity : AppCompatActivity() {
 
