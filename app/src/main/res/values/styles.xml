@@ -7,5 +7,25 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="itemCardCountry" parent="CardView">
+        <item name="cardElevation">5dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardBackgroundColor">@color/colorBackGroundCard</item>
+    </style>
+    <style name="detailCardCountry" parent="CardView">
+        <item name="cardElevation">10dp</item>
+        <item name="cardCornerRadius">@dimen/borderRadiusCard</item>
+    </style>
+    <style name="subjectDetail">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="resumeDetail">
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
 
 </resources>
